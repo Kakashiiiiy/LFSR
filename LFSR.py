@@ -44,7 +44,7 @@ def matrix(sequence,deg):
 	x = np.array(a.inv_mod(2)) 
 	b = np.array(list(map(int,sequence[deg:][:])))
 	x = np.flip(x.dot(b)%2)
-	print("Rückkopplungskoeffizienten:")
+	print("feedback coefficients:")
 	return x
 
 #Example
