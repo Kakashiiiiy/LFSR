@@ -49,6 +49,7 @@ def matrix(sequence,deg):
 
 #Example
 x = "1010000110111011"
-y = matrix(x,8)
+deg = 8
+y = matrix(x,deg)
 print(y)
-lfsr([1,0,0,0,0,1,0,1],y)
+lfsr(list(map(int,(reversed(x[:deg])))),y)
