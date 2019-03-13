@@ -16,7 +16,7 @@ Matrix returns the coefficients in this way:
 
 
 
-![alt text](https://github.com/Kakashiiiiy/LFSR/blob/master/lfsr_use.jpg)
+![alt text](https://github.com/Kakashiiiiy/LFSR/blob/master/lfsr_use-2.jpg)
 
 
 After we got the coefficients we use the function lfsr() which outputs a lot. 
