@@ -9,7 +9,7 @@ Students who are to lazy to solve this from hand.
 Let's take a look at the example. 
 First we got this "1010000110111011" seqence, as you can see it is 16 bits long so so we guess the degree of the polynom could be 8.
 Now we use the function matrix to solve the "Linear Equation System" and get the feedback coefficents
-matrix("STRING OF OUTPUT BITS" , "GUESSES DEGREE OF THE POLYNOM")
+matrix("STRING OF OUTPUT BITS" , "GUESSED DEGREE OF THE POLYNOM")
 
 
 Matrix returns the coefficients in this way:
